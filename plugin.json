@@ -1,12 +1,15 @@
 {
     "version"               :"0.0.1",
     "name"                  :"ELETHEME",
-    "description"           :"Theme for elettaria.eu",
+    "description"           :"Das Theme für elettaria.eu",
     "namespace"             :"ELETHEME",
     "author"                :"Heinz W. Warnemann",
+    "license"               :"AGPL-3.0"
+    "shortDescription"      :{"de": "Das Theme für elettaria.eu", "en":"This is a Theme for elettaria.eu"},
+    "email"                 : "office@elettaria.eu",
     "keywords"              : ["theme", "Ceres", "template", "elettaria"],
     "type"                  :"theme",
-    "require"               : [],
+    "require"               : ["Ceres", "IO"],
     "serviceProvider"       :"ELETHEME\\Providers\\ThemeServiceProvider",
     "dataProviders"         :
     [
