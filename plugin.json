@@ -1,21 +1,18 @@
 {
-    "version"               :"0.0.1",
-    "name"                  :"HWWMEDIA",
-    "description"           :"Das Theme für shop.hawewe.media",
-    "namespace"             :"HWWMEDIA",
-    "author"                :"Heinz W. Warnemann",
-    "license"               :"AGPL-3.0"
-    "email"                 : "office@elettaria.eu",
-    "keywords"              : ["theme", "Ceres", "template", "hawewe"],
+    "name"                  :"Theme",
+    "description"           :"Basic theme plugin",
+    "namespace"             :"Theme",
+    "author"                :"Your name",
+    "keywords"              : ["theme", "Ceres", "template"],
     "type"                  :"theme",
-    "require"               : ["Ceres", "IO"],
-    "serviceProvider"       :"HWWMEDIA\\Providers\\HWWMEDIAServiceProvider"
+    "require"               : [],
+    "serviceProvider"       :"Theme\\Providers\\ThemeServiceProvider",
     "dataProviders"         :
     [
         {
-            "key"           :"HWWMEDIA\\Containers\\ThemeContainer",
+            "key"           :"Theme\\Containers\\ThemeContainer",
             "name"          :"Dark background",
-            "description"   :"Change the background colour of the Ceres template",
-        }
-    ]
-}
+            "description"   :"Change the background colour of the Ceres template"
+            }
+        ]
+    }
