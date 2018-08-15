@@ -4,7 +4,7 @@ namespace HWWMEDIA\Providers;
 
 use Plenty\Plugin\ServiceProvider;
 
-class ThemeServiceProvider extends ServiceProvider
+class HAWEWEServiceProvider extends ServiceProvider
 {
 
   /**
