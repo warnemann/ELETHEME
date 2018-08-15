@@ -1,6 +1,6 @@
 <?php
 
-namespace ELETHEME\Providers;
+namespace HWWMEDIA\Providers;
 
 use Plenty\Plugin\ServiceProvider;
 
