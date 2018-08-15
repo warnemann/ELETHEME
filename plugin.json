@@ -1,16 +1,16 @@
 {
-    "name"                  :"Theme",
+    "name"                  :"hwwmtheme",
     "description"           :"Basic theme plugin",
-    "namespace"             :"Theme",
+    "namespace"             :"hwwmtheme",
     "author"                :"Your name",
     "keywords"              : ["theme", "Ceres", "template"],
     "type"                  :"theme",
     "require"               : [],
-    "serviceProvider"       :"Theme\\Providers\\ThemeServiceProvider",
+    "serviceProvider"       :"hwwmtheme\\Providers\\hwwmthemeServiceProvider",
     "dataProviders"         :
     [
         {
-            "key"           :"Theme\\Containers\\ThemeContainer",
+            "key"           :"hwwmtheme\\Containers\\hwwmthemeContainer",
             "name"          :"Dark background",
             "description"   :"Change the background colour of the Ceres template"
             }
