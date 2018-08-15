@@ -1,6 +1,6 @@
 <?php
 
-namespace ELETHEME\Containers;
+namespace HWWMEDIA\Containers;
 
 use Plenty\Plugin\Templates\Twig;
 
