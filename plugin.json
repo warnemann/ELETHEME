@@ -5,7 +5,6 @@
     "namespace"             :"HWWMEDIA",
     "author"                :"Heinz W. Warnemann",
     "license"               :"AGPL-3.0"
-    "shortDescription"      :{"de": "Das Theme für shop.hawewe.media", "en":"This is a Theme for shop.hawewe.media"},
     "email"                 : "office@elettaria.eu",
     "keywords"              : ["theme", "Ceres", "template", "hawewe"],
     "type"                  :"theme",
